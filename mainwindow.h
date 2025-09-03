@@ -24,6 +24,7 @@ private slots:
     void clearClicked();
     void operatorClicked();
     void equalsClicked();
+    void on_something_clicked();
 
 private:
     void abortOperation(const QString &msg);
